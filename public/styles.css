@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #0056b3;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.excel-table th {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.excel-table td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.excel-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003d82;
+}
+.status-logged {
+  color: white;
+  background-color: green;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.status-pending {
+  color: white;
+  background-color: rgb(215, 42, 42);
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+}
+.view-logs-button {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #007BFF; /* Blue background */
+  color: white; /* White text */
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.view-logs-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
